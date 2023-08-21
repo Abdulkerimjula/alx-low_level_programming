@@ -1,5 +1,5 @@
-#ifndef main.h
-#define maim.h
+#ifndef main_h
+#define main_h
 
 #include <stdio.h>
 #include <unistd.h>
@@ -15,6 +15,5 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
- 
-#endif
 
+#endif
