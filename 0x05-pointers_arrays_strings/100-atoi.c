@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an absulute integer
+ * _atoi - changes a string to an integer
  * @s: string to be changed
  *
  * Return: the int changed from the string
@@ -38,3 +38,9 @@ int _atoi(char *s)
 		}
 		i++;
 	}
+
+	if (f == 0)
+		return (0);
+
+	return (n);
+}
