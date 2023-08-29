@@ -2,10 +2,11 @@
 
 /**
  * set_string - sets the value
- * @s: pointer
- * @to: pointer
+ * @s: from pointer
+ * @to: pointer of the char
  */
 
+void set_string(char **s, char *to)
 {
-	*p = to;
+	*s = to;
 }
