@@ -1,6 +1,6 @@
 
 #include "main.h"
-
+/* betty style */
 void _puts_recursion(char *s)
 
 {
