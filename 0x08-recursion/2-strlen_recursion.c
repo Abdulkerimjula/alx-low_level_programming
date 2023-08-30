@@ -7,14 +7,15 @@
  *
  * Return: the length of string
  */
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
-	longit = 0;
+	int longit = 0;
 
-	if(*s)
+	if (*s)
 	{
 		longit++;
 		longit += _strlen_recursion(s + 1);
-	}	
+	}
+
 	return (longit);
 }
