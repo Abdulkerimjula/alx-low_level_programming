@@ -1,8 +1,11 @@
 
 #include "main.h"
-/* betty style */
+/**
+ * _puts_recursion - function for  puts();
+ * @s: input _putchar
+ * Return: Always 0 (Success)
+ */
 void _puts_recursion(char *s)
-
 {
 	if (*s)
 	{
