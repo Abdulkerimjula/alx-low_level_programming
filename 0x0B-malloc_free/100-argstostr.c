@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * argstostr - main
- * @ac: int 
+ * @ac: int
  * @av: arry
  * Return: null
  */
