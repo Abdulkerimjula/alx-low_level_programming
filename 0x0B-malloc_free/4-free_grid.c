@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
- * free_grid - frees 2d arrayof 
+ * free_grid - frees 2d arrayof
  * @grid: 2d
  * @height: height of grid
  * Description: free disctirption
