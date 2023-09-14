@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
 /**
  * sum - sumed
+ * @n: you
  * return: 0
  */
 int add (int arg, ...);
