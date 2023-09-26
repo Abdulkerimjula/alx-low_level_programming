@@ -3,6 +3,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * struct listint_s - you
+ * @n: number
+ * @next: is pointer to the next addres
+ *
+ * Description: the typedef struct
+ */
 
 typedef struct listint_s
 {
