@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * flip_bits - counts the numbers
+ * flip_bits - counts the numers
  * @n: first
  * @m: second
- * Return: number
+ *
+ * Return: numbers
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int p, count = 0;
-	unsigned long int j;
-	unsigned long int k = n ^ m;
+	int i, count = 0;
+	unsigned long int current;
+	unsigned long int exclusive = n ^ m;
 
-	for (p = 63; p >= 0; p--)
+	for (i = 63; i >= 0; i--)
 	{
-		j = k >> i;
-		if (j & 1)
+		current = exclusive >> i;
+		if (current & 1)
 			count++;
 	}
 
